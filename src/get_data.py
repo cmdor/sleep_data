@@ -20,7 +20,7 @@ def get_df(url, fname):
   
   if(not os.path.exists(fname)):
     get_data(url,fname)
-    get_df(url, fname)
+    return get_df(url, fname)
   else:
     df = pd.read_json(fname)
     return df

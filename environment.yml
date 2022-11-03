@@ -4,8 +4,14 @@ channels:
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=2_gnu
+  - brotlipy=0.7.0=py39hb9d737c_1005
   - bzip2=1.0.8=h7f98852_4
   - ca-certificates=2022.9.24=ha878542_0
+  - certifi=2022.9.24=pyhd8ed1ab_0
+  - cffi=1.15.1=py39he91dace_2
+  - charset-normalizer=2.1.1=pyhd8ed1ab_0
+  - cryptography=38.0.3=py39h3ccb8fc_0
+  - idna=3.4=pyhd8ed1ab_0
   - ld_impl_linux-64=2.39=hc81fddc_0
   - libblas=3.9.0=16_linux64_openblas
   - libcblas=3.9.0=16_linux64_openblas
@@ -23,19 +29,24 @@ dependencies:
   - libzlib=1.2.13=h166bdaf_4
   - ncurses=6.3=h27087fc_1
   - numpy=1.23.4=py39h3d75532_1
-  - openssl=3.0.5=h166bdaf_2
+  - openssl=3.0.7=h166bdaf_0
   - pandas=1.5.1=py39h4661b88_1
   - pip=22.3=pyhd8ed1ab_0
+  - pycparser=2.21=pyhd8ed1ab_0
+  - pyopenssl=22.1.0=pyhd8ed1ab_0
+  - pysocks=1.7.1=pyha2e5f31_6
   - python=3.9.13=h2660328_0_cpython
   - python-dateutil=2.8.2=pyhd8ed1ab_0
   - python_abi=3.9=2_cp39
   - pytz=2022.5=pyhd8ed1ab_0
   - readline=8.1.2=h0f457ee_0
+  - requests=2.28.1=pyhd8ed1ab_1
   - setuptools=65.5.0=pyhd8ed1ab_0
   - six=1.16.0=pyh6c4a22f_0
   - sqlite=3.39.4=h4ff8645_0
   - tk=8.6.12=h27826a3_0
   - tzdata=2022e=h191b570_0
+  - urllib3=1.26.11=pyhd8ed1ab_0
   - wheel=0.37.1=pyhd8ed1ab_0
   - xz=5.2.6=h166bdaf_0
 prefix: /home/cora/mambaforge/envs/sleep_env
